@@ -31,3 +31,14 @@ def sort_array(s):
             new.insert(i, d)    
     return new
 ```
+## **Experience**
+- Educational projects on C
+- Educational machine learning projects on Python using JupyterNotebook
+- Terminal game on C++ ([GitHub](https://github.com/pashabbrv/OOP))
+##  **Education**
+- Saint Petersburg Electrotechnical University «LETI» - in progress
+- Programming courses in C/C++/Python ([e-moevm](https://e.moevm.info/))
+- JavaScript / Front-end Course Pre-school RU ([rs-school](https://rs.school/courses/javascript-preschool-ru)) - in progress
+## **Languages**
+- Russian - native
+- English - A2

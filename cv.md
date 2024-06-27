@@ -1,4 +1,4 @@
-![picture](https://github.com/pashabbrv/rsschool-cv/assets/112647982/53cc6d3c-2c08-4990-b333-cd4bef656d79)
+![picture](https://github.com/pashabbrv/rsschool-cv/assets/112647982/e5a2524e-5612-4870-a405-b4660ef5ad76)
 ## **Pavel Bobrov**
 ## **Contacts**
 **Phone Number:** +79213021475

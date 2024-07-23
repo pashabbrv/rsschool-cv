@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, Futura, sans-serif;;
+    color: black;
+}
+
+.navigation {
+    -webkit-text-stroke: 0.1px rgb(255, 97, 56);
+    border: 2px solid #333;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    margin-bottom: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    margin: 0 10px 0;
+    justify-content: center;
+    
+}
+
+.intro img {
+    width: 190px;
+    height: 190px;
+    margin-right: 40px;
+}
+
+.intro.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.intro h1 {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.intro.text img {
+    width: 30px;
+    height: 20px;
+    margin: 0;
+}
+
+.core-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.element-container {
+    margin-left: 20px;
+    font-size: 21px;
+    flex-grow:1;
+    color: rgb(9, 7, 7);
+    -webkit-text-stroke: 0.05px rgb(255, 64, 64);
+    order:0;
+}
+
+#contacts {
+    max-width: 400px;
+    padding-left: 0;
+    order:1;
+}
+
+#about-myself {
+    max-width: 400px;
+    padding-left: 0;
+    order:2;
+}
+
+#skills {
+    max-width: 400px;
+    padding-left: 0;
+    order:3;
+}
+
+#code-ex {
+    max-width: 400px;
+    padding-left: 0;
+    order:4;
+}
+
+#experience {
+    max-width: 400px;
+    padding-left: 0;
+    order:5;
+}
+
+#education {
+    max-width: 400px;
+    padding-left: 0;
+    order:6;
+}
+
+.element-container h2 {
+    font-size: 36px;
+    color: rgb(255, 97, 56);
+    text-decoration: underline;
+    -webkit-text-stroke: 1px black;
+    margin: 0;
+    margin-top:30px;
+}
+
+.element-container ul {
+    margin-top:0;
+    margin-left:-20px;
+    display: block;
+    max-width: 400px;
+}
+
+.element-container li {
+    line-height:30px;
+    margin-bottom: 0.2em;
+}
+
+.element-container p {
+    margin: 0;
+    display: block;
+    line-height:30px;
+    max-width: 400px;
+    margin-bottom: 0.5em;
+}
+
+.element-container pre {
+    background-color: #2b2b2b;
+    color: rgb(169,183,198);
+    font-weight: bold;
+    border: 1px solid #0a0707;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    line-height: 1.6;
+    max-width: 100%;
+    width: 350px;
+    height: 300px;
+    padding:0;
+    margin-top:2px;
+}
+
+.keyword {
+    color: rgb(177,98,46);
+}
+
+.func-name {
+    color: rgb(255,198,109);
+}
+
+.method-name {
+    color: rgb(118,133,196);
+}
+
+.num {
+    color: rgb(99,150,167);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-size: 100% 100%;
+    margin-top:-10px;
+    margin-left:-9.25px;
+    margin-right:-9.25px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-image: url(assets/img/header.png);
+}
+
+main {
+    background-size: 100% 100%;
+    background-color: rgb(195,195,195);
+    margin-left:-8px;
+    margin-right:-8px;
+}
+
+footer {
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: -200px;
+    margin-left:-8px;
+    margin-right:-8px;
+    height: 125px;
+}
+
+#github {
+    font-weight: bold;
+    color: white;
+    font-size:25px;
+}
+
+#github a {
+    color: white;
+    text-decoration: none;
+}
+
+#github img {
+    width: 27px;
+    height: 27px;
+}
+
+#rs img {
+    margin-top: 20px;
+    margin-right:150px;
+    width: 80px;
+    height: 80px;
+}

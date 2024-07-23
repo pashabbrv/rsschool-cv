@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Futura, sans-serif;;
     color: black;
-    background-image: url(assets/img/background.png);
 }
 
 .navigation {
@@ -45,7 +44,7 @@ body {
     margin-right: 40px;
 }
 
-.intro.text{
+.intro.text {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -91,37 +90,37 @@ body {
     order:0;
 }
 
-#contacts{
+#contacts {
     max-width: 400px;
     padding-left: 0;
     order:1;
 }
 
-#about-myself{
+#about-myself {
     max-width: 400px;
     padding-left: 0;
     order:2;
 }
 
-#skills{
+#skills {
     max-width: 400px;
     padding-left: 0;
     order:3;
 }
 
-#code-ex{
+#code-ex {
     max-width: 400px;
     padding-left: 0;
     order:4;
 }
 
-#experience{
+#experience {
     max-width: 400px;
     padding-left: 0;
     order:5;
 }
 
-#education{
+#education {
     max-width: 400px;
     padding-left: 0;
     order:6;
@@ -172,39 +171,53 @@ body {
     margin-top:2px;
 }
 
-.keyword{
+.keyword {
     color: rgb(177,98,46);
 }
 
-.func-name{
+.func-name {
     color: rgb(255,198,109);
 }
 
-.method-name{
+.method-name {
     color: rgb(118,133,196);
 }
 
-.num{
+.num {
     color: rgb(99,150,167);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-main{
-    margin-bottom:30px;
+header {
+    background-size: 100% 100%;
+    margin-top:-10px;
+    margin-left:-9.25px;
+    margin-right:-9.25px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-image: url(assets/img/header.png);
+}
+
+main {
+    background-size: 100% 100%;
+    background-color: rgb(195,195,195);
+    margin-left:-8px;
+    margin-right:-8px;
 }
 
 footer {
+    background-size: 100% 100%;
     display: flex;
     flex-direction: row;
     background-color: black;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: -200px;
-    margin-right: -100px;
     margin-bottom: -200px;
+    margin-left:-8px;
+    margin-right:-8px;
     height: 125px;
 }
 
@@ -214,17 +227,17 @@ footer {
     font-size:25px;
 }
 
-#github a{
+#github a {
     color: white;
     text-decoration: none;
 }
 
-#github img{
+#github img {
     width: 27px;
     height: 27px;
 }
 
-#rs img{
+#rs img {
     margin-top: 20px;
     margin-right:150px;
     width: 80px;
